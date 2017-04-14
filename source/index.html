@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+</head>
+<style>
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+</style>
+<body>
+<h1>URL Parameter</h1>
+
+<form action="" method="get">
+
+    <fieldset>
+        <legend class="sr-only">color-type</legend>
+        <label>
+            <input type="checkbox" name="color-type" value="shiny-color">Shiny Color
+        </label>
+
+        <label>
+            <input type="checkbox" name="color-type" value="permanent-color">Permanent Colour
+        </label>
+
+        <label>
+            <input type="checkbox" name="color-type" value="bleaching">Bleaching
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend class="sr-only">hair-color</legend>
+        <label>
+            <input type="checkbox" name="blonde" value="blonde">Blonde
+        </label>
+
+        <label>
+            <input type="checkbox" name="black" value="black">Black
+        </label>
+
+        <label>
+            <input type="checkbox" name="c" value="red">Red
+        </label>
+    </fieldset>
+    <button type="submit">Submit</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+
+</html>
