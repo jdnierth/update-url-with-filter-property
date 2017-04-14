@@ -27,3 +27,6 @@ valid string that finally will be attached to the url as query parameters.
 
 # Example filter object query parameters
 ```http://localhost/?color-type=shiny-color,permanent-color&hair-color=blonde,black```
+
+# Features
+- Through usage of `window.history.pushState` making sure the back button works
